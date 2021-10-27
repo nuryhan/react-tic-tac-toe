@@ -30,7 +30,7 @@ function App() {
   }, [result]);
 
   const chooseSquare =(square)=> {
-    // console.log("square",square);
+   
      setBoard(board.map((val,idx)=> {
       //  console.log("value", val);
       //  console.log("index", idx);
